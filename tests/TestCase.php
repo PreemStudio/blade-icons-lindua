@@ -15,7 +15,6 @@ abstract class TestCase extends AbstractPackageTestCase
     {
         return [
             \PreemStudio\BladeIcons\ServiceProvider::class,
-            \Spatie\LaravelData\LaravelDataServiceProvider::class,
         ];
     }
 
