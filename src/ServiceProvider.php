@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace BombenProdukt\BladeIcons\Lindua;
 
-use Illuminate\Support\Facades\File;
 use BombenProdukt\BladeIcons\Facades\IconFamilyRegistry;
 use BombenProdukt\BladeIcons\IconFamily;
 use BombenProdukt\PackagePowerPack\Package\AbstractServiceProvider;
+use Illuminate\Support\Facades\File;
 
 final class ServiceProvider extends AbstractServiceProvider
 {
